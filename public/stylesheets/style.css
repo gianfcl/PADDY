@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100%;
+  width: 60%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+#formPoints {
+  top:0%;
+  height: 48%;
+  width: 40%;
+  background-color: #4285F4 !important;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+#panel {
+  margin-top:20px;
+  position: absolute;
+  top:50%;
+  height: 47%;
+  width: 40%;
+  overflow: auto;
+}
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+  background-color: inherit;
+  font-family: Roboto;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 10%;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:white;
+}
+
+#point1 {
+  margin-bottom: 20px;
+}
+
+::placeholder {
+  color: #ecf0f1;
+  font-size: 13px;
+}
+
+.controls:focus {
+  border-bottom-color: #1f52a3;
+}
+
+#buttonAdd {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+
+  background-color: inherit;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  outline: none;
+}
+
+/* #buttonOptimate {
+  border-radius: 5%;
+  height: 30px;
+  width: 120px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  color: white;
+
+  background-color: inherit;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  outline: none;
+} */
+
+#buttonAdd:hover {
+  box-shadow: 0 4px rgba(0,0,0,0.24);
+}
+
+#buttonAdd:active {
+  transform: translateY(4px);
+  box-shadow: 0 0px rgba(0,0,0,0.24);
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  transform: translateY(0px);
+}
+
+.enabled {
+  cursor: pointer;
+}
