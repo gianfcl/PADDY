@@ -4,7 +4,7 @@ conectar();
 ?>
 <!DOCTYPE html>
 <html>
-<head class="head_index">
+<head>
 	<title>PADDY</title>
 	<script href="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="javascripts/jquery-3.3.1.js" type="text/javascript"></script>
@@ -35,37 +35,41 @@ conectar();
 	<script src="js/moment/moment.min.js"></script>
 	<script src="js/sweetalert/sweetalert_30-05-2017.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/login/jquery-1.11.1.min.js"></script>
+	<!--script src="js/login/jquery-1.11.1.min.js"></script-->
 	<script src="js/sweetalert/sweetalert.min.js"></script>
 	<script src="javascripts/main.js"></script>
 	<style>
 		.head_index{
 			background: black;
 		}
-		.body_index{
+		.cuerpo{
 			background-image: url('images/paddy.png');
 			color: #fdf8f8;
+			height:100%;
 		}
 		.footer_index{
 			background: #02fff5e8;
 			color: black;
 		}
 		.h1_index{
-			color: #f5f2f2;
+			background:#14E7EA;
+			text-align: center;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			margin-top:0px;
 		}
 		.footin{
 			background: #02fff5e8;
 		}
 	</style>
+<h1 class="h1_index"><img style="margin-bottom:65px;" src="images/paddy_logo.png" alt="Logo">ADDY</h1>
 </head>
-<body class="body_index">
-<br><br>
-<div class="top-content forminicio">
+<body>
+<div class="top-content forminicio cuerpo">
 	<div class="col-sm-4 col-sm-offset-3 form-box">
 		<div class="inner-bg">
 		<div class="row">
 			<div class="form-top">
-				<h1 class="h1_index">BIENVENIDO</h1>
+				<h1>BIENVENIDO</h1>
 			</div>
 			<div class="form-bottom">
 				<form role="form" class="login-form" method="POST" action="" id="login-form">
@@ -99,7 +103,7 @@ conectar();
 
 </body>
 <footer class="footer_index">
-	<div class="row pull-left" style="margin-left: 2%;">
+	<div class="row pull-left">
 		<button class="fa fa-3x fa-facebook-square" onClick="location.href='https://www.facebook.com/PaddyPeru/'"></button>
 	</div>
 </footer>

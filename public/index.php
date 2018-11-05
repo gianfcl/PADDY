@@ -4,7 +4,7 @@ conectar();
 ?>
 <!DOCTYPE html>
 <html>
-<head class="head_index">
+<head>
 	<title>PADDY</title>
 	<script href="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
 	<script src="javascripts/jquery-3.3.1.js" type="text/javascript"></script>
@@ -39,31 +39,36 @@ conectar();
 	<script src="js/sweetalert/sweetalert.min.js"></script>
 	<script src="javascripts/main.js"></script>
 	<style>
-		#piedePagina{
-	    margin-top: 2%;
-	    position: relative;
-		}
-		.head_index{
-			background: black;
+		.piedePagina{
+			background:#14E7EA;
+			margin-bottom:0px;
 		}
 		.cuerpo{
 			position: relative;
 			background-image: url('images/paddy.png');
 			color: #151313;
+			height:100%;
 		}
 		.h1_index{
-			color: #151313;
+			background:#14E7EA;
 			text-align: center;
 			font-family: "Comic Sans MS", cursive, sans-serif;
+			margin-top:0px;
 		}
-		div{
-
+		li{
+			font-size:30px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+		.tit_h3{
+			font-size:30px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
 		}
 	</style>
-<h1 class="h1_index"><img src="images/paddy_logo.png" alt="Logo">PADDY</h1>
+<h1 class="h1_index"><img style="margin-bottom:65px;" src="images/paddy_logo.png" alt="Logo">ADDY</h1>
 </head>
 <body>
- <div class="collapse navbar-collapse navbar-ex1-collapse cuerpo">
+<div class="cuerpo">
+ <div class="collapse navbar-collapse navbar-ex1-collapse">
 		<ul class="nav nav-tabs">
 		  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
 		  <li><a target="_blank" href="./entrar_usuario.php">Ingresar</a></li>
@@ -71,43 +76,31 @@ conectar();
 		</ul>
 		<div class="tab-content">
 		  <div id="home" class="tab-pane fade in active">
-		    <h3>HOME</h3>
-		    <div>Somos PADDY------------</div>
+		    <h3 class="tit_h3">HOME</h3>
+		    <div></div>
 		  </div>
 		  <div id="menu2" class="tab-pane fade">
-		    <h3>Bienvenido a Paddy</h3>
-		    <div>
-		    	<label>MISION</label>
-		    	<label>-------------------</label>
+		    <h3 class="tit_h3">BIENVENIDO A PADDY</h3>
+		    <div class="row">
+		    	<div class="col-sm-4">
+			    	<label class="control-label">MISION</label>
+			    	<div></div>
+		    	</div>
 		    </div>
-		    <div>
-		    	<label>VISION</label>
-		    	<label>-------------------</label>
+		    <div class="row">
+		    	<div class="col-sm-4">
+			    	<label class="control-label">VISION</label>
+			    	<div></div>
+		    	</div>
 		    </div>
 		  </div>
 		</div>
-	<div class="wrapper">
-	    <nav id="sidebar">
-	    </nav>
-	    <div id="content">
-	    </div>
-	</div>
  </div>
+</div>
 </body>
-<footer>
-	<div class="container-fluid">
-		<footer  class="section section_footer fixed-bottom">
-			<div id="piedePagina" class="row">
-				<div class="col-sm-6 col-md-6">
-					<button class="fa fa-3x fa-facebook-square" target="_blank" onClick="location.href='https://www.facebook.com/PaddyPeru/'"></button>
-				</div>
-			</div>
-		</footer>
-	</div>
 
-    <script src="./js/jquery-3.3.1.js"></script>
-    <script src="./js/jquery-ui.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
+<footer class="section fixed-bottom piedePagina">
+	<button class="fa fa-3x fa-facebook-square" target="_blank" onClick="location.href='https://www.facebook.com/PaddyPeru/'"></button>
 </footer>
 </html>
 

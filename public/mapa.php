@@ -16,6 +16,11 @@
       <!-- <input type="button" id="buttonOptimate" class="disabled" value="Optimizar"> -->
     </form>
     <div id="panel">
+<style type="text/css">
+    #panel{
+      
+    }
+</style>
       <p>Total Distance: <span id="total"></span></p>
     </div>
     <div id="map"></div>

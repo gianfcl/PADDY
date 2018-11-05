@@ -41,19 +41,18 @@ $(document).on("click","#id_registrar",function(){
 $(document).on("click",".registrar_datos",function(){
 	var f =$('#fecha_hoy').val();
 	var nom =$('#nombres').val();
-	var docu_usu =$('#nombres').val();
+	var docu_usu =$('#docu_usu').val();
 	var ape =$('#apellidos').val();
-	var usu =$('#usuario').val();
 	var cla =$('#clave').val();
 	var fecha_naci =$('#fecha_naci').val();
 	var cor =$('#correo').val();
 
 	var temp = 'fecha_hoy='+f;
-	if (nom && ape && cla && usu && fecha_naci) {
+	if (nom && ape && cla && fecha_naci && parseInt(docu_usu)) {
 
 	temp = temp +'&nombre='+nom;
 	temp = temp +'&apellido='+ape;
-	temp = temp +'&usuario='+usu;
+	temp = temp +'&dni='+docu_usu;
 	temp = temp +'&clave='+cla;
 	temp = temp +'&fecha_nacimiento='+fecha_naci;
 	if (cor.trim().length) {
@@ -88,6 +87,8 @@ $(document).on("click",".registrar_datos",function(){
 	        complete: function() {
 	        }
 		});
+	}else if (!parseInt(docu_usu)){
+		alerta("El DNI no es correcto");
 	}else{
 		alerta("Llene los datos faltantes");
 	}
