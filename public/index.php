@@ -42,26 +42,30 @@ conectar();
 		.piedePagina{
 			background:#14E7EA;
 			margin-bottom:0px;
+    		height: 8%;
+		}
+		footer{
+			flex: 0 0 auto;
 		}
 		.cuerpo{
 			position: relative;
-			background-image: url('images/paddy.png');
-			color: #151313;
+			background-image: url('images/fondo.jpg');
+			color: #14E7EA;
 			height:100%;
 		}
 		.h1_index{
 			background:#14E7EA;
 			text-align: center;
-			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-family: Arial, Helvetica, sans-serif;
 			margin-top:0px;
 		}
 		li{
 			font-size:30px;
-			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-family: Arial, Helvetica, sans-serif;
 		}
 		.tit_h3{
 			font-size:30px;
-			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-family: Arial, Helvetica, sans-serif;
 		}
 	</style>
 <h1 class="h1_index"><img style="margin-bottom:65px;" src="images/paddy_logo.png" alt="Logo">ADDY</h1>
@@ -100,7 +104,9 @@ conectar();
 </body>
 
 <footer class="section fixed-bottom piedePagina">
-	<button class="fa fa-3x fa-facebook-square" target="_blank" onClick="location.href='https://www.facebook.com/PaddyPeru/'"></button>
+	<div style="margin-left: 15px;">
+		<button class="fa fa-3x fa-facebook-square" target="_blank" onClick="location.href='https://www.facebook.com/PaddyPeru/'"></button>
+	</div>
 </footer>
 </html>
 
