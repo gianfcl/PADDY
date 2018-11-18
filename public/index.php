@@ -50,7 +50,6 @@ conectar();
 		.cuerpo{
 			position: relative;
 			background-image: url('images/fondo.jpg');
-			color: #14E7EA;
 			height:100%;
 		}
 		.h1_index{
@@ -73,7 +72,7 @@ conectar();
 <body>
 <div class="cuerpo">
  <div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav nav-tabs">
+		<ul class="nav nav-tabs nav-pills">
 		  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
 		  <li><a target="_blank" href="./entrar_usuario.php">Ingresar</a></li>
 		  <li><a data-toggle="tab" href="#menu2">Nosotros</a></li>

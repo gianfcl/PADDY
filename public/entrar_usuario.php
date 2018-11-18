@@ -37,6 +37,7 @@ conectar();
 	<script src="js/bootstrap.min.js"></script>
 	<!--script src="js/login/jquery-1.11.1.min.js"></script-->
 	<script src="js/sweetalert/sweetalert.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script src="javascripts/main.js"></script>
 	<style>
 		.head_index{
@@ -44,7 +45,7 @@ conectar();
 		}
 		.cuerpo{
 			background-image: url('images/fondo.jpg');
-			color: #03DFF5;
+			color: #09A4F2;
 			height:100%;
 		}
 		.footer_index{
@@ -89,7 +90,7 @@ conectar();
 						<button type="submit" id="id_entrar" class="btn btn-info"><i>Entrar</i></button>
 					</div>
 					<div class="btn-group pull-right">
-						<button type="button" data-toggle="modal" data-target="#hacer_registro" id="id_registrar" class="btn btn-info"><i>Registrar</i></button>
+						<button type="button" data-toggle="modal" data-target="#iniciarregistro" id="iniciar_re" class="btn btn-info"><i>Registrar</i></button>
 					</div>
 				</div>
 			</div>
@@ -106,5 +107,6 @@ conectar();
 	</div>
 </footer>
 </html>
-
+<?php require "iniciar_registro.php"; ?>
 <?php require "registro.php"; ?>
+<?php require "registro_emp.php"; ?>

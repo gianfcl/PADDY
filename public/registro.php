@@ -5,18 +5,19 @@ $fec_n = Date('Y-m-d');
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<div class="modal fade modal-dialog-centered" id="hacer_registro" tabindex="-1" role="document" aria-labelledby="myModalLabel" aria-hidden="true">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<div class="modal fade" id="hacer_registro" tabindex="-1" role="document" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <button type="button" class="close" data-dismiss="modal" data-backdrop="false" aria-hidden="true">&times;</button>
         <h4 class="modal-title" style="color: black;">Formulario</h4>
       </div>
-      <div class="modal-body" style="color: black;">
+      <div class="modal-body">
         <div class="container-fluid">
-            <form class="form-horizontal" id="form_nuevoingreso" name="formnuevoingreso" role="form">
+            <form class="form-horizontal" id="form_nuevoingreso" name="formnuevoingreso" role="form" style="color: black;">
               <div class="form-group">
-                <label for="codigo" class="control-label col-md-3 col-sm-3 col-xs-12">Fecha: </label>
+                <label for="fecha_hoy" class="control-label col-md-3 col-sm-3 col-xs-12">Fecha Registro: </label>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <input type="" name="fecha_hoy" id="fecha_hoy" class="form-control-sm" readonly="" value="<?php echo $fec; ?>">
                 </div>
@@ -25,7 +26,7 @@ $fec_n = Date('Y-m-d');
               <div class="form-group">
                 <label for="docu_usu" class="control-label col-md-3 col-sm-3 col-xs-12">DNI: </label>
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                  <input type="" class="form-control-sm" name="docu_usu" id="docu_usu" aria-describedby="docu_usu" placeholder="DOCU">
+                  <input type="" class="form-control-sm" name="docu_usu" id="docu_usu" aria-describedby="docu_usu" placeholder="DNI">
                 </div>
               </div>
 
@@ -58,7 +59,7 @@ $fec_n = Date('Y-m-d');
               </div>
 
               <div class="form-group">
-                <label for="dni" class="control-label col-md-3 col-sm-3 col-xs-12">Correo: </label>
+                <label for="correo" class="control-label col-md-3 col-sm-3 col-xs-12">Correo: </label>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                   <input type="" class="form-control-sm" name="correo" id="correo" aria-describedby="correo" placeholder="micorreo@gmail.com">
                 </div>
