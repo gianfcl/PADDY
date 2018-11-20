@@ -44,7 +44,7 @@ conectar();
 			background: black;
 		}
 		.cuerpo{
-			background-image: url('images/fondo.jpg');
+			background-image: url('images/fondo2.jpg');
 			color: #09A4F2;
 			height:100%;
 		}

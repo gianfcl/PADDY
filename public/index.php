@@ -49,7 +49,7 @@ conectar();
 		}
 		.cuerpo{
 			position: relative;
-			background-image: url('images/fondo.jpg');
+			background-image: url('images/fondo2.jpg');
 			height:100%;
 		}
 		.h1_index{
@@ -83,19 +83,32 @@ conectar();
 		    <div></div>
 		  </div>
 		  <div id="menu2" class="tab-pane fade">
-		    <h3 class="tit_h3">BIENVENIDO A PADDY</h3>
-		    <div class="row">
-		    	<div class="col-sm-4">
-			    	<label class="control-label">MISION</label>
-			    	<div></div>
-		    	</div>
-		    </div>
-		    <div class="row">
-		    	<div class="col-sm-4">
-			    	<label class="control-label">VISION</label>
-			    	<div></div>
-		    	</div>
-		    </div>
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">MISION</h5>
+      <small></small>
+    </div>
+    <p class="mb-1"></p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">VISION</h5>
+      <small class="text-muted"></small>
+    </div>
+    <p class="mb-1"></p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">SERVICIOS</h5>
+      <small class="text-muted"></small>
+    </div>
+    <p class="mb-1"></p>
+    <small class="text-muted">Donec id elit non mi porta.</small>
+  </a>
+</div>
 		  </div>
 		</div>
  </div>
