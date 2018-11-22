@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGGKKMlvsv5n-Dpk7cyxpqPwxIRyWIG7o&libraries=places"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAi2T3Sj282PfK2sqqDeTS1Ka5U5KHB-U&libraries=places"></script>
     <link rel="StyleSheet" href="stylesheets/style.css" type="text/css">
   </head>
   <body>
