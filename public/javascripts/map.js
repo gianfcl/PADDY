@@ -170,7 +170,7 @@ function displayRoute(isOptime) {
     destination: pointLocation[nroPoints-1],
     waypoints: waypoints,
     travelMode: 'DRIVING',
-    // optimizeWaypoints: isOptime
+    optimizeWaypoints: isOptime
   }, function(response, status) {
     if (status === 'OK') {
       directionsDisplay.setDirections(response);

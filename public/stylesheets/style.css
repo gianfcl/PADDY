@@ -18,12 +18,13 @@ html, body {
   top:0%;
   height: 48%;
   width: 40%;
-  background-color: #4285F4 !important;
+  background-color: #27F5C0 !important;
   overflow: auto;
   padding-top: 20px;
 }
 
 #panel {
+  color: #72827E;
   margin-top:20px;
   position: absolute;
   top:50%;
@@ -33,6 +34,9 @@ html, body {
 }
 
 .controls {
+  background-color: rgb(252, 254, 253);
+  color: #72827E;
+
   margin-top: 10px;
   border: 1px solid transparent;
   border-radius: 2px 0 0 2px;
@@ -42,9 +46,9 @@ html, body {
   outline: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 
-  background-color: inherit;
+  /*background-color: inherit;*/
   font-family: Roboto;
-  color: white;
+  /*color: white;*/
   font-size: 15px;
   font-weight: 300;
   margin-left: 10%;
@@ -61,7 +65,7 @@ html, body {
 }
 
 ::placeholder {
-  color: #ecf0f1;
+  color: #72827E;
   font-size: 13px;
 }
 
@@ -80,8 +84,8 @@ html, body {
 
   background-color: inherit;
   margin-left: 40%;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.3s;
   outline: none;
